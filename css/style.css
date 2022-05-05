@@ -1,0 +1,62 @@
+
+.product {
+    width: 180px;
+    height: 200px;
+    background: white;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    white-space: nowrap;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.overlay {
+    cursor: not-allowed;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 10;
+}
+
+.product .product-header {
+    background: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    padding: 5px;
+}
+
+.product img {
+    position: absolute;
+}
+
+.product h5 {
+    margin: 0;
+}
+
+.product h4 {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product .select {
+    z-index: 5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-bottom-right-radius: 10px;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+}
